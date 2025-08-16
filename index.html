@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amit's Portfolio</title>
+  <link rel="stylesheet" href="navStyle.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Amit</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#education" >Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="ResumeAmit.pdf" download>Download Resume</a></li>
+      <li><button id="themeToggle" class="toggle-btn"> <div class="toggle-circle"></div></button></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <div class="home-text">
+      <h2>Hii</h2>
+      <h1>I'm Amit</h1>
+      <p style="width: 16em; text-align: justify;">Passionate app developer crafting sleek, functional, and
+        user-friendly applications, blending clean design with powerful functionality to create seamless digital
+        experiences.</p>
+      <div class="social-links" style="margin-top: 21px;">
+        <a href="https://www.linkedin.com/in/amitpref2919/" target="_blank"><i class="fab fa-linkedin"><img
+              src="images/linkedin.png" alt="linkedin" height="48"></i></a>
+        <a href="https://github.com/AmitKumarRawat" target="_blank"><i class="fab fa-github"></i><img
+            src="images/github.png" alt="github" height="48"></a>
+      </div>
+      <button class="info-btn" onclick="window.location.href='ResumeIndex.html'">View Resume</button>
+    </div>
+    <div class="triangle-frame">
+      <img src="images/profileh2.png" alt="computer image">
+    </div>  
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education-section">
+    <div class="di1ForSkills">
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <span>Dart</span>
+          <span>Java</span>
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>Flutter</span><br>
+          <span>Firebase</span>
+          <span>REST APIs</span>
+          <span>SQLite</span><br>
+          <span>JSON</span>
+        </div>
+      </section>
+    </div>
+    <div class="div2ForEdu">
+      <h2 style="align-items: center; text-align: center;">Education</h2>
+      <div class="outerEdu">
+        <div class="inneredus0">
+          <div class="innerdus01">
+            <p style="margin: 5px; margin-right: 20px;"> <b>Bachelor of Computer Application</b><br>
+              Sri Sharda Institute of Professional
+              Studies<br>
+              <b>(2022 - 2025)</b>
+            </p>
+          </div>
+          <div class="innerdus02">
+            <p><b>High School</b><br>Bal Guide Inter College | UP Board
+              <br><b>(2019 - 2020)</b>
+            </p>
+          </div>
+        </div>
+        <div class="inneredus1">
+          <div class="c3"></div>
+          <div class="l2"></div>
+          <div class="circle" data-value="76"><span>0%</span></div>
+          <div class="l3"></div>
+          <div class="circle" data-value="83"><span>0%</span></div>
+        </div>
+        <div class="inneredus2">
+          <p><b>Intermediate</b><br> Bal Guide Inter College | UP Board
+            <br><b>(2021 - 2022)</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="experience-section">
+    <h2 class="experience-title">Experience</h2>
+
+    <div class="experience-row">
+
+      <div class="experience-card">
+        <img style="height: 45px;margin-right: 14px;" src="images/Nemi Logo - Copy.png" alt="AMSKILLS Logo" class="company-logo">
+        <div class="experience-details">
+          <h3>Operations Executive</h3>
+          <p class="company">AMSKILLS ECADEMY PRIVATE LIMITED</p>
+          <span class="duration">May 2025 - Present</span>
+        </div>
+      </div>
+
+      <div class="experience-card" style="margin-top: 21px;margin-bottom: 21px;">
+        <img  src="images/Nemi Logo - Copy.png" alt="AMSKILLS Logo" class="company-logo" style="height: 45px;margin-right: 14px;">
+        <div class="experience-details">
+          <h3>Cloud Security Analyst Intern</h3>
+          <p class="company">AMSKILLS ECADEMY PRIVATE LIMITED</p>
+          <span class="duration">May 2025 - Present</span>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <img style="height: 55px;margin-right: 14px;" src="images/spi (1).png" alt="Softpro India Logo" class="company-logo">
+        <div class="experience-details">
+          <h3>Mobile App Development Intern</h3>
+          <p class="company">Softpro India Computer Technologies</p>
+          <span class="duration">Mar 2025 - Apr 2025</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <div class="projects-sectionInner">
+      <div class="inner1">
+        <div class="card-stack">
+          <div id="cdP1" class="card" data-title="Project 1">
+            <img src="images/lmsProject/login.jpg" alt="Project 1">
+          </div>
+          <div id="cdP2" class="card" data-title="Project 2">
+            <img src="images/lmsProject/home.jpg" alt="Project 2">
+          </div>
+          <div id="cdP3" class="card" data-title="Project 3">
+            <img src="images/lmsProject/category.jpg" alt="Project 3">
+          </div>
+          <div id="cdP4" class="card" data-title="Project 4">
+            <img src="images/lmsProject/dwawer.jpg" alt="Project 4">
+          </div>
+        </div>
+         <div class="innerI">
+          <h2 class="projectHeading" style="display: flex; align-items: center; justify-content: center;"> Library Management
+            System <br>
+            Mar 2025 - Apr 2025</b><br></h2>
+          <p style=" text-align: justify;">Library Management System is a mobile application developed
+            using Flutter and Firebase to simplify library
+            operations. It enables users to browse available books and librarians to manage book inventory efficiently.
+            With Firebase integration, the app provides secure user authentication, real-time data updates, and
+            cloud-based storage, making library management easy and accessible.</p>
+        </div>
+        
+      </div>
+      <div class="inner1" id="inner2">
+         <div class="innerI">
+          <h2 class="projectHeading" style="display: flex; align-items: center; justify-content: center ; "> MusicOn<br>
+            Oct 2024 - Nov 2024</b><br></h2>
+          <p style=" text-align: justify;"> It's a simple music player app build by using flutter
+            technology. If you are a developer then please suggest
+            better option to improve my application and skills.</p>
+        </div>
+       <div class="card-stack">
+          <div class="card" data-title="Project 1">
+            <img src="images/musicOn/m1.jpg" alt="Project 1">
+          </div>
+          <div class="card" data-title="Project 2">
+            <img src="images/musicOn/m2.jpg" alt="Project 2">
+          </div>
+          <div class="card" data-title="Project 3">
+            <img src="images/musicOn/m3.jpg" alt="Project 3">
+          </div>
+          <div class="card" data-title="Project 4">
+            <img src="images/musicOn/m4.jpg" alt="Project 4">
+          </div>
+        </div>
+       
+      </div>
+    </div>
+
+    </div>
+
+  </section>
+  <!-- Achievements Section -->
+<section class="achievements-section" id="achievements">
+  <h2 class="achievements-title">Achievements</h2>
+  
+  <div class="achievements-row">
+    <div class="achievement-card">Programming in Java <span>IIT Kharagpur - NPTEL</span></div>
+    <div class="achievement-card">Introduction to Internet of Things <span>IIT Kharagpur - NPTEL</span></div>
+    <div class="achievement-card">"Mobile Development" Certificate <span>Outstanding Project Innovation</span></div>
+    <div class="achievement-card">Certificate of Merit <span>Quiz Competition - Sri Sharda Institute</span></div>
+  </div>
+</section>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Information</h2>
+    <div class="divContact">
+      <img src="images/email.png" height="18" alt="" class="e1Contact">
+      <p class="e1Contact">amitamit92803@gmail.com</p>
+      <img src="images/call.png" height="18" alt="" class="e1Contact">
+      <p class="e1Contact">+91 9569689583</p>
+      <a class="e1Contact" href="https://github.com/AmitKumarRawat"><img src="images/github.png" height="32"
+          alt="git"></a>
+      <a class="e1Contact" href="https://www.linkedin.com/in/amitpref2919/"><img src="images/linkedin.png" height="32"
+          alt="git"></a>
+    </div>
+
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Amit. All right s reserved.</p>
+  </footer>
+  <script src="navScript.js">
+  </script>
+</body>
+</html>
