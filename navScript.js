@@ -57,3 +57,25 @@ toggle.addEventListener('click', () => {
 window.addEventListener("scroll", () => {
   document.querySelector("nav").classList.toggle("scrolled", window.scrollY > 50);
 });
+
+// for open nav
+
+const navbar = document.getElementById("navbarId");
+const ulElements = document.getElementById("ulelements");
+
+// Create toggle button dynamically
+const menuBtn = document.createElement("button");
+menuBtn.innerText = "☰";
+menuBtn.classList.add("menu-toggle");
+navbar.insertBefore(menuBtn, ulElements);
+
+menuBtn.addEventListener("click", () => {
+  ulElements.classList.toggle("open");
+   // change button text/icon
+  if (ulElements.classList.contains("open")) {
+    menuBtn.innerText = "☰⇧";  // close icon
+  } else {
+    menuBtn.innerText = "☰⇩";  // menu icon
+  }
+});
+
