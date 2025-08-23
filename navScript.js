@@ -71,11 +71,5 @@ navbar.insertBefore(menuBtn, ulElements);
 
 menuBtn.addEventListener("click", () => {
   ulElements.classList.toggle("open");
-   // change button text/icon
-  if (ulElements.classList.contains("open")) {
-    menuBtn.innerText = "☰⇧";  // close icon
-  } else {
-    menuBtn.innerText = "☰⇩";  // menu icon
-  }
 });
 

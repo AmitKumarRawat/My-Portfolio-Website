@@ -38,7 +38,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 1px;
+  /* padding-bottom: 1px; */
   background-color: var(--bg-alt);
   transition: box-shadow 0.3s ease;
 }
@@ -569,7 +569,7 @@ footer {
     font-style: bold;
     font-size: 21px;
     margin-left: none;
-    margin-bottom: 9px;
+    margin-top: 9px;
   }
 
   nav {
@@ -579,7 +579,9 @@ footer {
     padding-left: 21px;
     padding-right: 0px;
     background: var(--bg-main);
-
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    /* height: 91px; */
   }
 
   .home-section {
@@ -630,21 +632,16 @@ footer {
     height: 75%;
   }
     #ulelements {
-    display: block;
+    display: inline;
     overflow: hidden;
     max-height: 0; /* collapsed */
     margin-left: 0;
+    padding: 0px;
   }
 
   #ulelements.open {
-    margin-left: 0px;
-    margin: none;
     padding: 0px;
-    max-height: 300px; /* expands smoothly */
-  }
-  #navbarId{
-    margin: none;
-    padding: none;
+    max-height: 250px; /* expands smoothly */
   }
 
   /* Show items vertically */
@@ -652,7 +649,8 @@ footer {
     margin: 10px 0;
   }
   #ulelements{
-      transition: max-height 0.5s ease-in-out; /* animation */
+    margin: 2px;
+      transition: max-height 0.8s ease-in-out; /* animation */
       overflow: hidden; /* required for animation */
   }
   .logo{
@@ -668,7 +666,7 @@ footer {
   color: var(--primary);
   cursor: pointer;
   display: none;
-   transition: transform 0.3s ease;
+  margin: none;
 }
 .menu-toggle:hover {
   transform: scale(1.2); /* small zoom effect */
